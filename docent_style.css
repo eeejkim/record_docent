@@ -36,15 +36,45 @@ p {
     width: 54em;
 }
 
+@keyframes scroll-animation{
+    0%{
+      right: 0;
+    }
+    100%{
+      right: -200px; /* 텍스트 width와 동일 */
+    }
+  }
+  .scroll-text{
+    width: 100%;
+    overflow: hidden;
+    margin-top: 1em;
+  }
+  .track{
+    position: relative;
+    width: 2800px;
+    animation: scroll-animation 2s linear infinite;
+  }
+  .track p{
+    float: left;
+    width: 200px;
+    font-size: 6em;
+  }
+
 .top3 {
-    font-size: 4em;
+    font-size: 2em;
     text-align: center;
-    margin: 5em 0 0 0;
+    margin: 2em 0 1em 0;
 }
 
-.top3 p {
+.top4 {
+    font-size: 11em;
+    text-align: center;
+    margin-bottom: 0.7em;
+}
+
+.top4 p {
     border: 6px solid #5BF154;
     display: inline-block;
-    margin: 1.5em 2em;
+    margin: 0.3em 0 0 0;
     padding: 0.5em
 }

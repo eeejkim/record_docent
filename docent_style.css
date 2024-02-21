@@ -1,0 +1,12 @@
+html {
+    background: black;
+}
+
+html,
+body {
+    margin: 0;
+}
+
+p {
+    color: white;
+}

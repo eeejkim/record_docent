@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbit&display=swap');
+
 html {
     background: black;
 }
@@ -5,8 +7,44 @@ html {
 html,
 body {
     margin: 0;
+    padding:0;
 }
 
+
 p {
-    color: blue;
+    color: #5BF154;
+    font-family: "Orbit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+    padding:0;
+}
+
+.top1 {
+    font-size: 2em;
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.top2 {
+    display: flex;
+    justify-content: center;
+}
+
+.top2img {
+    width: 54em;
+}
+
+.top3 {
+    font-size: 4em;
+    text-align: center;
+    margin: 5em 0 0 0;
+}
+
+.top3 p {
+    border: 6px solid #5BF154;
+    display: inline-block;
+    margin: 1.5em 2em;
+    padding: 0.5em
 }

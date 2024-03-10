@@ -1,61 +1,77 @@
-<!doctype html>
-<html>
-    <head>
-        <meta charset="UTF-8">
-        <title>ENTER DOCENT</title>
-        <link rel="stylesheet" href="docent_style.css">
-    </head>
+<!DOCTYPE html>
 
-    <body>
-        <div class="top1">
-            <p>Coding Study recode</p>
+<html lang="ko" style="width: 100%;">
+
+<head>
+    <title>ENTER DOCENT</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="styles.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="content">
+        <div class="index_header">
+            <p>UOSVD recode</p>
             <p>2024. 03 Exhibition</p>
         </div>
-      
-        <div class="top2">
-            <img class="top2img" src="top2.png">
+
+        <div class="logo">
+            <img src="resource/logo.png">
+            <!-- resource 폴더 만들어주는 게 파일 관리하기 편함 / 파일명은 영어로 알아보기 쉽게 -->
         </div>
 
-        <div class="scroll-text">
-            <div class="track">
-              <p>➔</p>
-              <p>➔</p>
-              <p>➔</p>
-              <p>➔</p>
-              <p>➔</p>
-              <p>➔</p>
-              <p>➔</p>
+
+        <div class="welcome">
+            <div style="margin: 1em 0;">
+                <p>서울시립대학교 디자인학과 [enter]전
+                    <br><br>서울시립대 디자인학과 코딩학술모임 recode는 Javascript, p5js, 3js 등의 웹코딩 언어를 자유롭게 연구한다. 이론적 연구뿐 아니라, 디자인을
+                    효과적으로 전달하는 매체로써 디지털 환경을 택하여
+                    디자인과 컴퓨터의 상관관계를 연구하고 활용한다.
+                    <br><br>[enter]전에서는 9명의 디자이너가 3개월간의<br>연구 결과를 선보인다.
+                </p>
             </div>
-          </div>
-
-        <div class="top3">
-            <p>서울시립대학교 코딩 스터디 "recode"의</p>
-            <p>두번째 전시에 오신 것을 환영합니다</p>
+            <!-- 같은 맥락의 내용일 경우 p 하나 안에서 br로 줄바꿈 -->
+            <!-- 굳이 전시 서문으로 불필요한 페이지 하나 더 늘릴 필요 없어보여서 index에 넣음 -->
         </div>
 
-        <div class="top4">
-            <a href="first.html"><P>ENTER</P></a>
+        <div id="marquee">
+            <img style="width: 30px; padding: 0 0.3em;" src="resource/logo_2.svg">
+            <img style="width: 30px; padding: 0 0.3em;" src="resource/logo_2.svg">
+            <img style="width: 30px; padding: 0 0.3em;" src="resource/logo_2.svg">
+            <img style="width: 30px; padding: 0 0.3em;" src="resource/logo_2.svg">
+            <img style="width: 30px; padding: 0 0.3em;" src="resource/logo_2.svg">
+            <img style="width: 30px; padding: 0 0.3em;" src="resource/logo_2.svg">
+            <img style="width: 30px; padding: 0 0.3em;" src="resource/logo_2.svg">
+            <img style="width: 30px; padding: 0 0.3em;" src="resource/logo_2.svg">
         </div>
 
-        <div class="scroll-text">
-            <div class="track">
-              <p>➔</p>
-              <p>➔</p>
-              <p>➔</p>
-              <p>➔</p>
-              <p>➔</p>
-              <p>➔</p>
-              <p>➔</p>
+
+        <div class="welcome" style="margin: 0.8em 0 3.5em 0;">
+            <div>
+                <img src="resource/poster.jpg">
+                <p class="more">
+                    <a href="https://uosrecode.netlify.app/">레코드 작업 더보기 ➔</a>
+                </p>
             </div>
-          </div>
-         
-         <div class="top5">
-            <p>레코드 작업 더보기</p>
-            <a href="https://uosrecode.netlify.app/2309/"><p>TOUCH</p></a>
-            <a href="https://uosrecode.netlify.app/2309/"><p> https://uosrecode.netlify.app/2309/</p></a>
+            <!-- 같은 맥락의 내용일 경우 p 하나 안에서 br로 줄바꿈 -->
+            <!-- 굳이 전시 서문으로 불필요한 페이지 하나 더 늘릴 필요 없어보여서 index에 넣음 -->
         </div>
+    </div>
 
+    <div>
+        <p class="enter">
+            <a href="first.html">ENTER</a>
+        </p>
+    </div>
 
+    <div class="background"></div>
 
-    </body>
-</html>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+    <script src="script.js"></script>
+</body>
